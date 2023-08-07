@@ -1,4 +1,8 @@
-<div class="modal-background">
+<script>
+	import { blur } from "svelte/transition";
+</script>
+
+<div class="modal-background" transition:blur>
 	<div class="modal">
 		<slot />
 	</div>

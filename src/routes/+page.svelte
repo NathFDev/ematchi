@@ -111,5 +111,6 @@
 		padding: 1em;
 		border-radius: 0.5em;
 		margin: .5em;
+		cursor: pointer;
 	}
 </style>
